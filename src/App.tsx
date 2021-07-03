@@ -23,11 +23,11 @@ export default function App() {
     <>
       <Header onOpenTransanctionModal={handleOpenModal} />
       <Dashboard />
+      <GlobalStyle />
       <NewTransactionModal
         isOpen={isModalOpen}
         onRequestClose={handleCloseNewTransactionModal}
       />
-      <GlobalStyle />
     </>
   );
 }
