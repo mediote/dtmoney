@@ -31,7 +31,7 @@ createServer({
         {
           id: 3,
           title: 'Projeto React',
-          type: 'deposity',
+          type: 'deposit',
           category: 'Dev',
           amount: 11200,
           createdAt: new Date('2021-06-03 11:00:00'),
