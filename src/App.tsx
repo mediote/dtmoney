@@ -24,11 +24,11 @@ export default function App() {
     <TransactionsProvider>
       <Header onOpenTransanctionModal={handleOpenModal} />
       <Dashboard />
-      <GlobalStyle />
       <NewTransactionModal
         isOpen={isModalOpen}
         onRequestClose={handleCloseNewTransactionModal}
       />
+      <GlobalStyle />
     </TransactionsProvider>
   );
 }

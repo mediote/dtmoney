@@ -14,7 +14,7 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: 'Freelancer de Website',
+          title: 'Projeto imobiliaria',
           type: 'deposit',
           category: 'Dev',
           amount: 6000,
@@ -30,10 +30,10 @@ createServer({
         },
         {
           id: 3,
-          title: 'Projeto React',
+          title: 'Conta de luz',
           type: 'deposit',
           category: 'Dev',
-          amount: 11200,
+          amount: 120,
           createdAt: new Date('2021-06-03 11:00:00'),
         },
       ],
